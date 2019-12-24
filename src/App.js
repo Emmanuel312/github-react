@@ -1,11 +1,13 @@
 import React from 'react';
-
+import Routes from './routes'
+import GlobalStyles from './styles/global'
 
 export default function()
 {
   return (
-    <div>
-      <h1>teste</h1>
-    </div>
+    <>
+      <Routes />
+      <GlobalStyles />
+    </>
   )
 }
